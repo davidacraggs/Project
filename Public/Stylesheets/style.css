@@ -16,6 +16,7 @@ h1 {
 }
 
 
+
 fieldset {
 
   border-radius: 10px;
@@ -38,6 +39,14 @@ label {
   font-family: 'Kameron', serif;
   font-weight:700;
   cursor: pointer;
+}
+
+label.inline,
+input.inline {
+
+  display: inline;
+  width:auto;
+
 }
 
 
@@ -81,7 +90,12 @@ input[type=text]:hover {
     border: 1px solid #C8C8C8;
 }
 
-button:hover {
+input[type=email]:hover {
+    background-color:#D3F2F9;
+    border: 1px solid #C8C8C8;
+  }
+
+button:hover{
 
   background-color:#D3F2F9;
   box-shadow: 1px 2px 8px 1px rgba(0,0,0,1);

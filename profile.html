@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="public/stylesheets/style.css">
+         <link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+    <h1>Profile</h1>
+
+    <form action="/profile/edit" method="POST">
+
+    <fieldset>
+
+        <label for="first-name"> First name*</label>
+        <input type="text" name="first-name" id="first-name" placeholder="Enter your first name..."><br>
+
+        <label for="last-name"> Last name*</label>
+        <input type="text" name="last-name" id="last-name"placeholder="Enter your last name..."><br>
+
+        <label for="email"> Email*</label>
+        <input type="email" name="email" id="email" placeholder="Enter your e-mail address..."><br>
+
+
+        <label for="password"> Password*</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password..."><br>
+
+        <label>Gender</label>
+        <input type="radio" name"gender" value "male" id="gender-male" class="inline"><label for="gender-male"  class="inline">Male</label>
+
+        <input type="radio" name"gender" value "female" id="gender-female" class="inline"><label for="gender-female" class="inline">Female</label>
+
+        <button type="submit">Enter!</button>
+
+      </fieldset>
+    </form>
+   </body>
+</html>
