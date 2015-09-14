@@ -23,6 +23,7 @@ fieldset {
   border: 1px solid #ccc ;
   background-color:#F0F0F0 ;
 
+
 }
 
 form {
@@ -36,9 +37,11 @@ label {
 
   display: block;
   margin-top:20px;
+  margin-left:55px;
   font-family: 'Kameron', serif;
   font-weight:700;
   cursor: pointer;
+ 
 }
 
 label.inline,
@@ -46,8 +49,30 @@ input.inline {
 
   display: inline;
   width:auto;
+  margin:auto;
+
 
 }
+
+
+#genderlabel {
+
+  margin:0;
+  padding:0;  
+  padding-top:10px;
+}
+
+
+
+ #gender {
+
+  padding-left:55px;
+
+ }
+
+
+
+
 
 
 input {
@@ -56,6 +81,10 @@ input {
   font-family: 'Kameron', serif;
   font-size:1em;
   cursor: pointer;
+  display: block;
+  width: 75%;
+  margin: 0px 55px;
+  padding:10px;
 }
 
 button {
@@ -70,6 +99,7 @@ button {
   background-color:#E0FDF2;
   cursor: pointer;
   width: 120px;
+
 }
 
 
